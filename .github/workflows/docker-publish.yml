@@ -120,7 +120,7 @@ jobs:
       run:  docker pull ghcr.io/xrobot-org/docker-image:main
 
     - name: Rename docker image
-      run:  docker tag ghcr.io/xrobot-org/docker-image:main xrimage/build
+      run:  docker tag ghcr.io/xrobot-org/docker-image:main xrimage/dev-mcu
 
     - name: upload file
-      run: docker images && docker push xrimage/build
+      run: docker images && docker push xrimage/dev-mcu
