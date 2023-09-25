@@ -1,3 +1,3 @@
 # Docker image
 
-Docker image for XRobot build.
+Docker image for XRobot MCU development.
